@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+body {
+    font-family:  "Qwitcher Grypen", cursive;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.outer-box{
+    width: 100vw;
+    height:100vh;
+    background:linear-gradient(to top left,rgb(30, 160, 207),rgb(218, 222, 223));
+}
+.inner-box{
+    width:300px;
+    margin:0 auto;
+    position:relative;
+    top:40%;
+    transform:translatey(-50%);
+    padding:20px 40px;
+    /*background-color: rgb(243, 236, 227);*/
+    background:linear-gradient(to right,#97c4f2,#dbe6ec);
+    box-shadow:5px 5px 10px rgb(1, 40, 58);
+    z-index: 2;
+}
+.signup-header h1{
+    font-size:3.5 rem ;
+    color:rgb(23, 22, 22)
+}
+.signup-header p{
+    font-size:0.8 rem;
+    color:rgb(152, 130, 130)
+
+}
+
+.signup-body{
+    margin:20px 0;
+}
+.signup-body p{
+    margin:10px;
+}
+.signup-body p label{
+    display: block;
+    font-weight:bold ;
+
+}
+.signup-body p input{
+    width:100%;
+    padding:10px;
+    border:2px solid cornflowerblue;
+    border-radius: 4px;;
+
+}
+.signup-body p input[type="submit"]{
+    background-color: #1396ee;
+    border:none ;
+    color:white;
+    cursor: nwse-resize;
+
+}
+.signup-body p input[type="submit"]:hover{
+    background-color:blue;
+}
+.signup-footer p{
+    color:#1396ee;
+    text-align: center;
+}
+.signup-footer p a{
+    color:blue;
+
+}
+.circle{
+    width:200px;
+    height:200px;
+    border-radius: 100px;
+    background:linear-gradient(to left,#ffffff ,#12afe8ee);
+    position:absolute
+}
+.c1{
+    top:100px;
+    left:40px;
+}
+.c2{
+    bottom:100px;
+    right:40px;
+}
